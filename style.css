@@ -599,13 +599,12 @@ a[data-lightbox]:hover img {
 }
 
 .lightbox-caption {
-  padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
+  text-align: center;
 }
 
 .close-lightbox {
@@ -656,8 +655,8 @@ a[data-lightbox]:hover img {
 }
 
 .snapshot-lb .lightbox-caption {
-  padding: 0;
-  color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  color: #000000;
   background: none;
 }
 
