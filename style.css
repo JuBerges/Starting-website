@@ -927,6 +927,17 @@ h4 {
   #disqus_thread {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
+  }
+  #pr {
+    text-align: start;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  #hr {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: start;
   }
   .b-parallax {
     background-attachment: scroll;
