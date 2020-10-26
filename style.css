@@ -605,6 +605,7 @@ a[data-lightbox]:hover img {
   left: 15px;
   right: 15px;
   text-align: center;
+  font-size: 14px;
 }
 
 .close-lightbox {
@@ -658,7 +659,6 @@ a[data-lightbox]:hover img {
   margin-top: 5px;
   color: #000000;
   background: none;
-  font-size: inherit;
 }
 
 h1,
@@ -872,18 +872,6 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .b-parallax {
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .b-parallax {
-    background-attachment: scroll;
-  }
-}
-
 @media (max-width: 991px) {
   .container {
     width: 100%;
@@ -896,10 +884,7 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -908,8 +893,6 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
